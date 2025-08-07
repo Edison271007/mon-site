@@ -1,0 +1,292 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+
+header {
+  background-color: hsl(180, 7%, 89%);
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img{
+  width: 110px;
+  height: auto;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00b2a9;
+  font-weight: 800;
+}
+
+
+
+nav a:hover {
+  color: hsl(180, 7%, 6%);
+}
+
+.header-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: 1px solid #00b2a9;
+  background: #fff;
+  color: #00b2a9;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-buttons .sell-btn {
+  background: #00b2a9;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.header-buttons button:hover {
+  opacity: 0.9;
+  background-color: hwb(177 5% 81%);
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.col-2{
+  flex-basis: 40%;
+  min-width: 300px;
+  
+}
+.col-2 img{
+  width: 550px;
+  padding:30px 0;
+  
+}
+
+.col-2 h1{
+  font-size:50px ;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.col-2 a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 30px;
+  background-color: #00b2a9;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+.col-2 a:hover{
+  background-color:lab(17.69% -11.48 -2.06);
+  
+}
+P{
+  color: #333;
+}
+.header-section{
+  background: radial-gradient(#fbf9f9,#f9f7f7);
+}
+/* style de la section catégories*/
+.catégories{
+  margin: 70px 0;
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin: auto;
+}
+.col-3 img{
+  width: 100%;
+  display: inline-block;
+}
+.container h2{
+text-align: center;
+font-size: 2.2rem;
+color: cadetblue;
+margin: 50px 0;
+display: block;
+  margin-bottom: 20px;
+  transition: all;
+  justify-content: center;
+}
+h2{
+  text-align: center;
+}
+  /* section des produits */
+  .catégories{
+  margin: 10px 0;
+}
+.col-4{
+  flex-basis: 30%;
+  min-width: 200px;
+  margin: auto;
+}
+.col-4 img{
+  width: 100%;
+  display: block;
+}
+.container h2{
+font-size: 2.2rem;
+color: cadetblue;
+margin: 100px 1000;
+display: block;
+  margin-bottom: 20px;
+}
+.meilleurs{
+  padding: 40px;
+  background-color: lch(99.11% 0.7 18.52);
+  text-align: center;
+}
+.section-title{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #00b2a9;
+}
+
+
+.product-grid{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.product{
+  background-color: rgb(226, 236, 236);
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow:0 4px 12px rgba(0,0,0,0,1);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+.product img{
+width: 100%;
+border-radius: 10px;
+height: 250px;
+object-fit: cover;
+transition: 0.3s ease;
+}
+.product:hover img{
+  transform: scale(1.1);
+}
+.product h3{
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: lch(3.64% 0 296.81);
+}
+
+.stars{
+  color: #00b2a9;
+  font-size: 18px;
+}
+footer {
+  background-color: #d7e9e8;
+  color: #0f0e0e;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: hsl(177, 64%, 55%);
+  text-transform: uppercase;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: hsl(0, 0%, 3%);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: hsl(0, 0%, 2%);
+}
+
+.social-links div a {
+  color: #0f0f0f;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #00b2a9;
+}
+
+.footer-col input[type="email"] {
+  padding: 8px;
+  width: 80%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-col button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #00b2a9;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: hsl(0, 11%, 2%);
+}
